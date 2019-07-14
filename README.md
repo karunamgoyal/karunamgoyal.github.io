@@ -1,1 +1,0 @@
-# karunamgoyal.github.io
