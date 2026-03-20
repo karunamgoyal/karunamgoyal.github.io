@@ -1,35 +1,71 @@
 1:"$Sreact.fragment"
-2:I[16005,["/_next/static/chunks/0jytmjf-esu2d.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0azz9..b6bvvc.js"],"default"]
-8:I[97367,["/_next/static/chunks/0jytmjf-esu2d.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-9:"$Sreact.suspense"
-3:T650,
+2:I[16005,["/_next/static/chunks/0jytmjf-esu2d.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/01-n194gwhxma.js"],"default"]
+a:I[97367,["/_next/static/chunks/0jytmjf-esu2d.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+3:T4b0,
+## Overview
+
+Part of the core Flipkart UPI senior team — contributed from the founding phase through product maturity. Achieved 1 million customers in week 1 and 10 million users within 6 months of launch.
+
+## What I Built
+
+- **User Service** — identity and profile management for UPI users
+- **Gateway** — entry point for all UPI traffic, request routing and auth
+- **UI Adaptation Layer** — server-driven UI contracts for the UPI frontend
+- **Rewards Manager** — UPI rewards and cashback engine
+- **Notification Module** — transactional notifications for UPI events
+- **Auto-pay** — recurring payment mandate management
+- **Rate-limiter Module** — per-user and per-partner rate limiting
+- **Timeout Module** — UPI transaction timeout handling and reconciliation
+
+## Distributed Streaming Platform
+
+Implemented a high-performance distributed platform using Apache Storm with Apache Kafka and Apache Pulsar as stream sources. Supported 8 critical async use-cases including the UPI live transaction flow — ensuring scalability and fault tolerance at 10M-user scale.
+
+## Tech
+
+Java, Dropwizard, Apache Kafka, Apache Storm, Apache Pulsar, Kubernetes, high-throughput microservices.
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container-main pt-28 pb-16","children":[["$","div",null,{"className":"flex items-center gap-2 font-mono text-sm text-muted mb-8 ","children":[["$","span",null,{"className":"text-accent","children":">"}],["$","span",null,{"className":"text-accent","children":"ls -la ./projects"}],["$","span",null,{"className":"inline-block w-[2px] h-[1em] bg-accent ml-1 align-middle","style":{"animation":"blink 1s step-end infinite"},"aria-hidden":"true","children":["$","style",null,{"children":"\n        @keyframes blink {\n          0%, 100% { opacity: 1; }\n          50% { opacity: 0; }\n        }\n      "}]}]]}],["$","h1",null,{"className":"font-sans font-bold text-primary text-3xl md:text-4xl mb-4","style":{"letterSpacing":"-0.01em"},"children":"What I've Built"}],["$","p",null,{"className":"font-mono text-sm text-muted mb-12 max-w-lg","children":"A mix of production systems work and side projects. Placeholders are real things I'm building — details incoming."}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4","children":[["$","$L2","cred-metals",{"project":{"slug":"cred-metals","content":"\n## Overview\n\nThe Metals platform at CRED enables users to invest in and transact with physical Gold and Silver. I am currently building this platform — architecture, backend systems, and partner integrations.\n\nPreviously also built the Gold Rewards allocation system for CRED Gold onboarding, which allocated Rs. 3 crore worth of rewards in the first week of launch, directly boosting retention KPIs.\n\n## What I am Building\n\n- Core Metals platform backend — Gold and Silver buy/sell/hold flows\n- Partner integrations for physical metal custody and settlement\n- Rewards and allocation systems for CRED Gold onboarding\n\n## Tech\n\nJava, Golang, distributed microservices, high-throughput transaction processing.\n","title":"CRED Metals — Gold & Silver","description":"Building the Metals platform at CRED — enabling users to buy, hold, and transact in Gold and Silver. Currently in active development.","tags":["Java","Golang","Fintech","Platform Engineering","Distributed Systems"],"github":"","live":"https://cred.club/money","featured":true,"placeholder":false,"order":1}}],["$","$L2","cred-fd",{"project":{"slug":"cred-fd","content":"\n## Overview\n\nLed the end-to-end architecture and delivery of CRED's Fixed Deposit platform — from a blank slate to a successful GTM launch. Collaborated with Product, Legal, and Compliance throughout.\n\n## What I Built\n\n- Complete backend for Fixed Deposit onboarding, investment, and management flows\n- Partner integrations for FD providers\n- Cross-functional coordination across Product, Legal, and Compliance for regulatory requirements\n\n## Tech\n\nJava, Golang, distributed microservices, partner API integrations.\n","title":"CRED Fixed Deposit","description":"Led full architecture and delivery of the Fixed Deposit platform at CRED from scratch — partner integrations, compliance, and GTM launch.","tags":["Java","Golang","Fintech","Platform Engineering","Distributed Systems"],"github":"","live":"https://cred.club/money","featured":true,"placeholder":false,"order":2}}],["$","$L2","cred-resident",{"project":{"slug":"cred-resident","content":"\nComing soon.\n","title":"CRED Residents App","description":"New product in development at CRED — details coming at launch.","tags":["Coming Soon"],"github":"","live":"https://cred.club/residents","featured":false,"placeholder":true,"order":3}}],["$","$L2","flipkart-upi",{"project":{"slug":"flipkart-upi","content":"$3","title":"Flipkart UPI","description":"Senior contributor on Flipkart UPI — scaled from zero to 10 million users in 6 months. Built the core microservices stack powering 10M customers at high scale.","tags":["Java","Dropwizard","Apache Kafka","Distributed Systems","UPI","Fintech"],"github":"","live":"","featured":false,"placeholder":false,"order":4}}],"$L4","$L5"]}]]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"zi0MZ_QaUthWU13nH7DK7"}
+8:T496,
+## Overview
+
+Worked on the Flipkart refunds platform during the SDE phase — spanning infrastructure improvements, critical integrations, compliance, and reliability engineering.
+
+## Key Contributions
+
+- **Instant Refunds** — integrated Visa Direct, MasterCard Send, and UPI Refunds to reduce refund SLA from 3-5 business days to 24 hours.
+- **Red-line Load Testing** — conducted the first red-line load test for the refunds system, handling 10x BAU load. Identified bottlenecks and tuned the system for peak sale hours.
+- **Incident Prevention** — proactive participation during external partner outages prevented SLA breaches on 30-40k refunds at a time.
+- **Infrastructure Migrations** — managed VM to Kubernetes migration, DB version upgrades, and DC migration — resulting in 50% fewer on-call incidents.
+- **RBI Tokenisation Compliance** — contributor to the critical RBI tokenisation compliance program from the refunds team.
+- **Azkaban Workflow Engine** — set up Azkaban for automating and scheduling multiple refund processing jobs.
+
+## Tech
+
+Java, Dropwizard, Kubernetes, distributed systems, payment network integrations (Visa, Mastercard, NPCI).
+4:["$","$L2","flipkart-refunds",{"project":{"slug":"flipkart-refunds","content":"$8","title":"Flipkart Refunds Platform","description":"Built and scaled the Flipkart refunds infrastructure — instant refunds via Visa Direct, MasterCard Send, and UPI, cutting SLA from 3-5 business days to 24 hours.","tags":["Java","Dropwizard","Distributed Systems","Fintech","Payments"],"github":"","live":"","featured":false,"placeholder":false,"order":5}}]
+9:T4cb,
 ## Overview
 
 A proof-of-concept demonstrating how to run a gRPC service behind an Envoy proxy that translates HTTP/JSON requests to gRPC — enabling REST clients to communicate with gRPC backends without any client-side gRPC library.
 
-Born out of experience building microservices at Flipkart and CRED, where service mesh patterns are critical for reliability at scale.
-
-## Problem
-
-gRPC is excellent for service-to-service communication — strongly typed, efficient binary serialization, bidirectional streaming. But it's incompatible with standard REST clients and browsers. The transcoding pattern (Envoy as a sidecar handling protocol translation) solves this cleanly.
+Built during my Flipkart internship while working on REST POJO to proto3 IDL conversion tooling. Distributed at Flipkart scale, service mesh patterns like this are critical — this POC was my first deep dive into them.
 
 ## Architecture
 
 ```
-REST Client → Envoy (HTTP/JSON ↔ gRPC transcoding) → Java gRPC Service
+REST Client → Envoy (HTTP/JSON to gRPC transcoding) → Java gRPC Service
 ```
 
 Envoy is configured with `grpc-http1.1-bridge` and `grpc-json-transcoder` filters. The proto descriptor is compiled and passed to Envoy at startup so it knows how to map REST endpoints to RPC methods.
 
 ## Key Learnings
 
-- **Proto-first design matters.** The `.proto` file is the contract. Changes cascade to both Envoy config and the Java service — same discipline as schema-first API design.
-- **Envoy's static config is verbose for local dev** but the xDS API investment pays off at scale (we use similar patterns at CRED for service discovery).
-- **gRPC status codes ≠ HTTP status codes.** Envoy handles mapping but you need to understand it for debugging. `UNAVAILABLE` → 503, `NOT_FOUND` → 404, etc.
-- **Proto descriptor files** must be precompiled and baked into Envoy config — a footgun if your CI doesn't automate it.
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container-main pt-28 pb-16","children":[["$","div",null,{"className":"flex items-center gap-2 font-mono text-sm text-muted mb-8 ","children":[["$","span",null,{"className":"text-accent","children":">"}],["$","span",null,{"className":"text-accent","children":"ls -la ./projects"}],["$","span",null,{"className":"inline-block w-[2px] h-[1em] bg-accent ml-1 align-middle","style":{"animation":"blink 1s step-end infinite"},"aria-hidden":"true","children":["$","style",null,{"children":"\n        @keyframes blink {\n          0%, 100% { opacity: 1; }\n          50% { opacity: 0; }\n        }\n      "}]}]]}],["$","h1",null,{"className":"font-sans font-bold text-primary text-3xl md:text-4xl mb-4","style":{"letterSpacing":"-0.01em"},"children":"What I've Built"}],["$","p",null,{"className":"font-mono text-sm text-muted mb-12 max-w-lg","children":"A mix of production systems work and side projects. Placeholders are real things I'm building — details incoming."}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4","children":[["$","$L2","grpc-poc",{"project":{"slug":"grpc-poc","content":"$3","title":"gRPC + Envoy Service Mesh POC","description":"Production-grade gRPC service mesh using Envoy as a sidecar proxy to expose gRPC services as HTTP+JSON. Explores service-to-service communication patterns at scale.","tags":["gRPC","Envoy","Java","Service Mesh","HTTP/2","Distributed Systems"],"github":"https://github.com/karunamgoyal/grpc-poc","live":"","featured":true,"placeholder":false,"order":1}}],["$","$L2","placeholder-1",{"project":{"slug":"placeholder-1","content":"\nWork done at Flipkart. Details on request.\n","title":"Flipkart UPI Platform","description":"Senior contributor on Flipkart UPI — scaled from 0 to 10 million users in 6 months. Built User Service, Gateway, UI Adaptation layer, Rewards Manager, Auto-pay, Rate-limiter, and Events Module.","tags":["Java","Dropwizard","Distributed Systems","UPI","Microservices","Apache Kafka"],"github":"","live":"","featured":false,"placeholder":true,"order":2}}],"$L4","$L5"]}]]}],["$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"w7YKJFd_O9YUEnMRwdT4H"}
-4:["$","$L2","placeholder-2",{"project":{"slug":"placeholder-2","content":"\nCurrently in development at CRED.\n","title":"CRED Metals Platform","description":"Architecting the Metals platform (Gold & Silver) at CRED — currently in development. Previously delivered CRED Gold rewards allocation system that allocated ₹3 crore in the first week.","tags":["Java","Golang","Distributed Systems","Fintech","Coming Soon"],"github":"","live":"","featured":false,"placeholder":true,"order":3}}]
-5:["$","$L2","placeholder-3",{"project":{"slug":"placeholder-3","content":"\nShipped at CRED. Write-up coming.\n","title":"CRED Fixed Deposit Platform","description":"Led full architecture and delivery of the Fixed Deposit platform from scratch at CRED — partner integrations, backend systems, and cross-functional GTM launch with Product, Legal, and Compliance.","tags":["Java","Golang","Fintech","Platform Engineering","Coming Soon"],"github":"","live":"","featured":false,"placeholder":true,"order":4}}]
-6:["$","script","script-0",{"src":"/_next/static/chunks/0azz9..b6bvvc.js","async":true}]
-7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
-a:null
+- **Proto-first design matters.** The `.proto` file is the contract. Changes cascade to both Envoy config and the Java service.
+- **Envoy's static config is verbose for local dev** but the xDS API investment pays off at scale.
+- **gRPC status codes are not HTTP status codes.** Envoy handles mapping but you need to understand it for debugging.
+- **Proto descriptor files** must be precompiled and baked into Envoy config — automate this in CI.
+5:["$","$L2","grpc-poc",{"project":{"slug":"grpc-poc","content":"$9","title":"gRPC + Envoy Service Mesh POC","description":"Production-grade gRPC service mesh using Envoy as a sidecar proxy to expose gRPC services as HTTP+JSON. Built during Flipkart internship, exploring service-to-service communication patterns.","tags":["gRPC","Envoy","Java","Service Mesh","HTTP/2","Distributed Systems"],"github":"https://github.com/karunamgoyal/grpc-poc","live":"","featured":false,"placeholder":false,"order":6}}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/01-n194gwhxma.js","async":true}]
+7:["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]
+c:null
